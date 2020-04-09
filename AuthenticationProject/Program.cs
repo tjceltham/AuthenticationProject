@@ -22,9 +22,9 @@ namespace AuthenticationProject
                 Console.WriteLine("Test 1 Failed");
             }
 
-            if (authenticate("Collins", "Goodbye") == false)
+            if (authenticate("Collins", "goodbye") == false)
             {
-                Console.WriteLine("Test1 Passed");
+                Console.WriteLine("Test 2 Passed");
             }
             else
             {
